@@ -1,0 +1,78 @@
+/* .discover {
+    width: 100%;
+    margin: 0;
+
+}
+
+.discover .content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+}
+
+.discover .box {
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 4%), 0 0 2px rgb(0 0 0 / 6%), 0 0 1px rgb(0 0 0 / 4%);
+}
+
+.discover .img {
+    width: 100%;
+    height: 150px;
+}
+
+.discover img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.discover h1 {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .discover .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
+.discover {
+    width: 100%;
+    margin: 0;
+
+}
+
+.discover .content {
+    display: flex;
+}
+
+.discover .box {
+    margin: 5px 10px 0 0;
+    padding: 10px;
+    width: 100%;
+    height: 220px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 4%), 0 0 2px rgb(0 0 0 / 6%), 0 0 1px rgb(0 0 0 / 4%);
+}
+
+.discover .image {
+    width: 100%;
+    height: 150px;
+
+}
+
+.discover img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.discover .title {
+    font-size: 20px;
+    color: black;
+}

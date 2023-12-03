@@ -1,0 +1,70 @@
+.posts .box {
+    background-color: white;
+    ;
+    height: 200px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.posts .flexSB {
+    display: flex;
+
+}
+
+.posts .row {
+    width: 50%;
+}
+
+.posts .category {
+    margin-left: 0px;
+}
+
+.posts .images {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+}
+
+.posts img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.posts .text {
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+    bottom: 120px;
+}
+
+.posts .text .title {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -55px;
+}
+
+.posts .text .desc {
+    position: absolute;
+    font-size: 14px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    word-break: normal;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+.posts .date {
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.posts .comment {
+    position: absolute;
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}

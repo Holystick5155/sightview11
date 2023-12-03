@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+label {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container {
+  min-width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.category {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+}
+
+
+
+.category1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 5px solid #fb4c35;
+  width: auto;
+  display: block;
+  background: linear-gradient(to right, #fb4c35, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+.category1 span {
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.category1:hover {
+  background-position: left bottom;
+}
+
+.category1 span:hover {
+  color: white;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.comment i,
+.date i {
+  width: 30px;
+  color: #fb4c35;
+  font-size: 13px;
+}
+
+.comment label,
+.date label {
+  font-size: 13px;
+  color: #868586;
+}
+
+.desc {
+  font-size: 13px;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 15px 10px -10px;
+}

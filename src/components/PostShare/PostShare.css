@@ -1,0 +1,123 @@
+.PostShare {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.PostShare img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.PostShare>div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 1rem;
+}
+
+.PostShare>div>input {
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.PostShare>div>select {
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+
+.PostShare>div>select>option {
+    padding: 30px;
+    font-size: 17px;
+}
+
+
+
+.postOptions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.ps-button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+
+.previewImage {
+    right: inherit;
+    left: 65%;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.previewImage>svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+
+.previewImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/* Text Editor */
+
+.wrapper-class {
+    border: 1px solid rgb(157, 44, 44);
+    height: auto;
+    margin-top: 50px;
+}
+
+.editor-class {
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.toolbar-class {
+    border: 1px solid #ccc;
+}
+
+.preview {
+    padding: 0 2rem;
+    word-break: break-all;
+}

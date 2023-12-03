@@ -1,0 +1,62 @@
+.music .box {
+    height: 200px;
+    margin: 10px;
+}
+
+
+.music .images {
+    width: 100%;
+    height: 100%;
+}
+
+.music img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.music .category1 {
+    margin-left: 0;
+}
+
+.music .text {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-right: 40px;
+}
+
+.music .title {
+    font-size: 18px;
+}
+
+.music .desc {
+    font-size: 14px;
+
+}
+
+.music .date {
+    position: absolute;
+    bottom: 40px;
+    padding-right: -30px;
+}
+
+.music .comment {
+    display: inline-flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 150px;
+    bottom: 40px;
+}
+
+.music .comment span {
+    display: flex;
+    margin-right: 10px;
+}
+
+.music .comment span i {
+
+    margin-right: -15px;
+}
+
+@media screen and (max-width: 768px) {}

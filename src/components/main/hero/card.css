@@ -1,0 +1,237 @@
+.hero1,
+.hero2,
+.hero3,
+.hero4 {
+    margin: 30px 0;
+    color: rgb(253, 219, 219);
+}
+
+.hero1 a,
+.hero2 a,
+.hero3 a,
+.hero4 a {
+    color: white;
+
+}
+
+.hero1 .box,
+.hero2 .box,
+.hero3 .box,
+.hero4 .box {
+    position: relative;
+    padding: 30px;
+}
+
+.hero1 img,
+.hero2 img,
+.hero3 img,
+.hero4 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+
+/* HERO One */
+.hero1 .heroContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 6.6vh);
+    grid-gap: 10px;
+}
+
+.hero1 .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+
+
+
+/* HERO 2 */
+.hero2 .heroContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 6.6vh);
+    grid-gap: 10px;
+}
+
+.hero2 .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.hero2 .box:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+
+
+
+/* HERO 3 */
+.hero3 .heroContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 6.6vh);
+    grid-gap: 10px;
+}
+
+.hero3 .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.hero3 .box:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.hero3 .box:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+
+/* HERO 4 */
+.hero4 .heroContainer {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 6.6vh);
+    grid-gap: 10px;
+}
+
+.hero4 .box:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+
+.hero4 .box:nth-child(2) {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.hero4 .box:nth-child(3) {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.hero4 .box:nth-child(4) {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+
+.hero1 .text h1,
+.hero2 .text h1,
+.hero3 .text h1,
+.hero4 .text h1 {
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.hero1 .author span,
+.hero2 .author span,
+.hero3 .author span,
+.hero4 .author span {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.hero1 .text,
+.hero2 .text,
+.hero3 .text,
+.hero4 .text {
+    position: absolute;
+    bottom: 30px;
+}
+
+
+.box:nth-child(1) h1 {
+    font-size: 28px;
+}
+
+.hero1 .box:nth-child(1) .category,
+.hero2 .box:nth-child(1) .category,
+.hero3 .box:nth-child(1) .category,
+.hero4 .box:nth-child(1) .category {
+    background-color: crimson;
+}
+
+.hero2 .box:nth-child(2) .category,
+.hero3 .box:nth-child(2) .category,
+.hero4 .box:nth-child(2) .category {
+    background-color: #0b9931;
+}
+
+.hero3 .box:nth-child(3) .category,
+.hero4 .box:nth-child(3) .category {
+    background-color: #8d056b
+}
+
+.hero4 .box:nth-child(4) .category {
+    background-color: #c78823
+}
+
+@media screen and (max-width: 768px) {
+    .heroContainer {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(18, 6vh);
+        grid-gap: 10px;
+    }
+
+    .box:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    .box:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 10;
+    }
+
+    .box:nth-child(3) {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 15;
+    }
+
+    .box:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 15;
+        grid-row-end: 20;
+    }
+}

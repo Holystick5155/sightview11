@@ -1,0 +1,64 @@
+.popular .box {
+    background-color: white;
+    ;
+    height: 180px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.popular .flexSB {
+    display: flex;
+
+}
+
+.popular .row {
+    width: 50%;
+}
+
+.popular .category {
+    margin-left: 0px;
+}
+
+.popular .images {
+    width: 160px;
+    height: 180px;
+}
+
+.popular img {
+    width: 160px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular .text {
+    position: absolute;
+    left: 170px;
+    margin-left: 0;
+    bottom: 110px;
+}
+
+.popular .text .title {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -55px;
+}
+
+.popular .text .desc {
+    position: absolute;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.popular .date {
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.popular .comment {
+    position: absolute;
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}

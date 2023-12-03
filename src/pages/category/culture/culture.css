@@ -1,0 +1,65 @@
+main .container {
+    margin-top: 0px;
+}
+
+.mainContent .box {
+    background-color: white;
+    ;
+    height: 200px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.mainContent .category {
+    margin-left: 0px;
+}
+
+.mainContent .images {
+    position: absolute;
+    width: 50%;
+    height: 200px;
+}
+
+.mainContent img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mainContent .text {
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+    bottom: 120px;
+}
+
+.mainContent .text .title {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -55px;
+}
+
+.mainContent .text .desc {
+    position: absolute;
+    font-size: 14px;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    word-break: normal;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+.mainContent .date {
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.mainContent .comment {
+    position: absolute;
+    border-top: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}

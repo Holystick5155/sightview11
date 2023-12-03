@@ -1,0 +1,48 @@
+.ppost .ppbox {
+    background-color: white;
+    ;
+    height: 150px;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.ppost .row {
+    width: 40%;
+}
+
+.ppost .category {
+    margin-left: 0px;
+}
+
+.ppost .ppimages {
+    width: 100%;
+    height: 150px;
+}
+
+.ppost .ppimages img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ppost .pptext {
+    position: absolute;
+    width: 100%;
+    left: 40%;
+    margin: 10px;
+    top: 10px;
+}
+
+.ppost .text .title {
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+}
+
+
+.ppost .date {
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
